@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="http://7xvmsp.com1.z0.glb.clouddn.com/ffximap/images/icon.gif">
+<meta name="google-site-verification" content="xpSdwdVsyjRd6ZV7RsgOIGBsrUmWRnt_U1ELBQhfKXg" />
+<title>Vana'diel Atlas: Map of Upper Delkfutt's Tower</title>
+<link href="http://7xvmsp.com1.z0.glb.clouddn.com/ffximap/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="layout">
+
+<div id="header">
+<div id="siteid"><a href="/maps.html"><img src="/images/clear.gif" alt="Vana'diel Atlas" title="Vana'diel Atlas" /></a></div>
+<ul>
+<li><a href="http://www.ffxisf.com">FFXISF官网</a></li>
+<li><a href="/maps.html">World Map</a></li>
+</ul>
+
+</div>
+<div id="content" class="notab">
+<div id="tab_bg">
+<div id="tab_mapname"><h2>Area &#151; Upper Delkfutt's Tower</h2></div>
+<div id="tab_items">
+<div id="tabs_inactive"><A HREF="/maps/delkfutts_tower-upper/general">General</A></div><div id="tabs_active">Treasure</div></div>
+</div>
+<div id="info_col">
+<h3><IMG SRC="/images/icon_chest.gif" WIDTH="14" HEIGHT="14" TITLE="Treasure Chest"> &nbsp; Treasure Chest information</h3>
+<table cellspacing="0" id="infotable">
+<TR><TD WIDTH="90" BGCOLOR="#F2F2E6" VALIGN="TOP">Key mob</TD>
+<td class="treasure_list">
+<P>Error performing query: Table 'ffxiatla_main.monster_data' doesn't exist</P>

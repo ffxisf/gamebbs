@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="/images/icon.gif">
+<meta name="google-site-verification" content="xpSdwdVsyjRd6ZV7RsgOIGBsrUmWRnt_U1ELBQhfKXg" />
+<title>Vana'diel Atlas: Map of Yuhtunga Jungle</title>
+<link href="/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5069985-11']);
+  _gaq.push(['_setDomainName', 'ffxi-atlas.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+<body>
+
+<div id="wrapper">
+<div id="layout">
+
+<div id="master_links">
+<a href="http://www.ffxi-atlas.com" class="link_atlas"><span class="home">FFXI-Atlas.com</span></a>
+<div class="newSite"><a href="http://ffxivmaps.com"><strong>A NEW GAME, A NEW BEGINNING?</strong> Join us in our journey to map out Eorzea of Final Fantasy XIV @ ffxivmaps.com</a> &amp; <a href="http://ffxivlibrary.com">ffxivlibrary.com</a></div>
+<div id="sites"><a href="http://monsters.ffxi-atlas.com">Vana&rsquo;diel Bestiary</a> | <a href="http://npc.ffxi-atlas.com">NPC Finder</a>
+</div>
+</div>
+
+<div id="header">
+<div id="siteid"><a href="/"><img src="/images/clear.gif" alt="Vana'diel Atlas" title="Vana'diel Atlas" /></a></div>
+<ul>
+<li><a href="/">World Map</a></li>
+</ul>
+<form action="/search.php" method="get" name="searchform" class="mainsearch">
+<input type="hidden" name="act" value="search">
+<div class="searchbox">Search Maps</div>
+<input type="text" class="searchtabinput" name="form_keywords">
+<input type="image" value="submit" src="/images/icon-search.gif" width="16" height="16" align="top" title="Search" alt="Search" class="submit">
+</form>
+</div>
+<div id="content" class="notab">
+<div id="tab_bg">
+<div id="tab_mapname"><h2>Area &#151; Yuhtunga Jungle</h2></div>
+<div id="tab_items">
+<div id="tabs_inactive"><A HREF="/maps/yuhtunga_jungle/general">General</A></div><div id="tabs_inactive"><A HREF="/maps/yuhtunga_jungle/helm">Logging</A></div></div>
+</div>
+<div id="info_col">
+<h3>Harvesting Results</h3>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" class="helm_table">
+<TR><TD BGCOLOR="#cfe601" WIDTH="20" ALIGN="CENTER">&nbsp;</TD><TD><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Woozyshroom</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#fefb00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Danceshroom</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Sleepshroom</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#ffcc00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Scream Fungus</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Puffball</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#ff9e00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">King Truffle</TD></TR>
+</TABLE></TD></TR></TABLE><P>
+<h3>Logging Results</h3>
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0" class="helm_table">
+<TR><TD BGCOLOR="#cfe601" WIDTH="20" ALIGN="CENTER">&nbsp;</TD><TD><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Arrowwood Log</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Rattan Lumber</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#fefb00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Lauan Log</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#ffcc00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Holly Log</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Revival Tree Root</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Beehive Chip</TD></TR>
+</TABLE></TD></TR>
+<TR><TD BGCOLOR="#ff9e00" WIDTH="20" ALIGN="CENTER" STYLE="border-top:1px #acacac solid;">&nbsp;</TD><TD STYLE="border-top:1px #acacac solid;"><TABLE BORDER="0" CELLSPACING="0" CELLPADDING="3" WIDTH="100%">
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Rosewood Log</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Ebony Log</TD></TR>
+<TR><TD STYLE="padding-left:10px;padding-right:15px;" BGCOLOR="#f0f0f0">Tree Cuttings</TD></TR>
+</TABLE></TD></TR></TABLE><P>
+<BR><P><TABLE BORDER="0" CELLSPACING="1">
+<TD STYLE="font-size:9px;">Common</TD>
+<TD BGCOLOR="#9ece00" WIDTH="15" HEIGHT="15"> </TD>
+<TD BGCOLOR="#cfe601" WIDTH="15" HEIGHT="15"> </TD>
+<TD BGCOLOR="#fefb00" WIDTH="15" HEIGHT="15"> </TD>
+<TD BGCOLOR="#ffcc00" WIDTH="15" HEIGHT="15"> </TD>
+<TD BGCOLOR="#ff9e00" WIDTH="15" HEIGHT="15"> </TD>
+<TD STYLE="font-size:9px;">Rare</TD>
+</TR></TABLE>
+</div><div id="map_col">
+<div id="map_container">
+<img src="/maps_normal2/0071_yuhtunga-jungle.jpg" class="map_display" />
+<div id="helmyuhtungajungle" class="helm_container2">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:172px; top:225px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:171px; top:233px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:166px; top:236px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:259px; top:354px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:261px; top:363px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:275px; top:368px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:253px; top:304px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:247px; top:293px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:250px; top:283px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:247px; top:286px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:205px; top:271px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:209px; top:270px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:212px; top:272px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:218px; top:273px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:228px; top:296px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:236px; top:304px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:236px; top:309px;">
+<img src="/images/marker_logging.png" class="helm_pointer" name="pointer" STYLE="left:229px; top:315px;">
+</div>
+</div>
+</div>
+<br class="clear">
+<div class="banner_ad">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3410893193796281";
+/* Atlas top banner */
+google_ad_slot = "3899741462";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+</div>
+</div>
+</div>
+<div id="ad_space">
+<div class="ads">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3410893193796281";
+/* Atlas bottom banner */
+google_ad_slot = "8807437683";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="ads">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3410893193796281";
+/* Atlas bottom links */
+google_ad_slot = "7105005061";
+google_ad_width = 120;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+</div>
+<div id="footer"><span class="info">&copy; 2001-2003 SQUARE ENIX CO., LTD. All Rights Reserved. Title Design by Yoshitaka Amano. FINAL FANTASY, TETRA MASTER and VANA'DIEL are registered trademarks of Square Enix Co., Ltd. SQUARE ENIX, PLAYONLINE and the PlayOnline logo are trademarks of Square Enix Co., Ltd.</span></div>
+</body>
+</html>
