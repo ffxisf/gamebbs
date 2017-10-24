@@ -32,7 +32,7 @@ $Routes = array(
 //Support HTTP Method: GET / POST / PUT / DELETE / OPTIONS
 //这里是Routes Start
 
-$Routes['GET']['/']                                                                        = 'home';
+$Routes['GET']['/']                                                                        = 'zones';
 $Routes['POST']['/']                                                                       = 'home'; //Delete later
 $Routes['GET']['/dashboard']                                                               = 'dashboard';
 $Routes['POST']['/dashboard']                                                              = 'dashboard';
