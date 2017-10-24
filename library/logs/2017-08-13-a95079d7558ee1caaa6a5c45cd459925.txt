@@ -1,0 +1,19 @@
+Time : 17:01:46
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carbon.carbon_config' doesn't exist
+Raw SQL : SELECT ConfigName,ConfigValue FROM carbon_config
+
+Time : 17:01:30
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carbon.carbon_config' doesn't exist
+Raw SQL : SELECT ConfigName,ConfigValue FROM carbon_config
+
+Time : 17:01:14
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carbon.carbon_config' doesn't exist
+Raw SQL : SELECT ConfigName,ConfigValue FROM carbon_config
+
+Time : 17:00:58
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carbon.carbon_config' doesn't exist
+Raw SQL : SELECT ConfigName,ConfigValue FROM carbon_config
+
+Time : 17:00:42
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carbon.carbon_users' doesn't exist
+Raw SQL : SELECT (NewReply + NewMention + NewMessage) AS NewNotification FROM carbon_users WHERE ID = :UserID

@@ -1,0 +1,3 @@
+Time : 00:52:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.mobType' in 'field list'
+Raw SQL : SELECT a.groupid, a.poolid, a.dropid, a.respawntime, a.HP, a.MP, a.minLevel, a.maxLevel, b.`name`, b.mJob, b.sJob, c.mobType, c.`name` as zonename FROM mob_groups a, mob_pools b, zone_settings c WHERE b.poolid = a.poolid AND c.zoneid = a.zoneid AND a.zoneid = 9

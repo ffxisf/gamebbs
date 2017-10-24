@@ -1,0 +1,11 @@
+Time : 11:39:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b.poolid = a.poolidAND c.zoneid = a.zoneidAND a.zoneid = 4' at line 1
+Raw SQL : SELECT a.zoneid,	a.groupid, a.poolid, a.dropid, a.minLevel, a.maxLevel, b.`name`, c.`name`FROM mob_groups a,	mob_pools b,	zone_settings cWHERE	b.poolid = a.poolidAND c.zoneid = a.zoneidAND a.zoneid = 4
+
+Time : 11:39:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'b.poolid = a.poolidAND c.zoneid = a.zoneidAND a.zoneid = 4' at line 1
+Raw SQL : SELECT a.zoneid,	a.groupid, a.poolid, a.dropid, a.minLevel, a.maxLevel, b.`name`, c.`name`FROM mob_groups a,	mob_pools b,	zone_settings cWHERE	b.poolid = a.poolidAND c.zoneid = a.zoneidAND a.zoneid = 4
+
+Time : 11:23:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHEN mob_pools.poolid = mob_groups.poolid AND mob_groups.zoneid=4' at line 1
+Raw SQL : SELECT * FROM mob_groups, mob_pools WHEN mob_pools.poolid = mob_groups.poolid AND mob_groups.zoneid=4
