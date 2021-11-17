@@ -547,7 +547,7 @@ body > iframe{
 }
 
 .orderbox {
-    background: url("/static/img/background.png") repeat;
+    background: url("/ffxisf/static/img/background.png") repeat;
     padding: 13px 15px;
     color:#fff;
     border-radius: 3px;
@@ -555,7 +555,7 @@ body > iframe{
 }
 
 .itembox {
-    background: url("/static/img/background.png") repeat;
+    background: url("/ffxisf/static/img/background.png") repeat;
     padding: 13px 15px;
     color:#fff;
     border-radius: 3px;
@@ -564,7 +564,7 @@ body > iframe{
 
 .itembg {
     float: left;
-    background: url("/static/img/itembg.png") 0 0 no-repeat;
+    background: url("/ffxisf/static/img/itembg.png") 0 0 no-repeat;
     width:32px;
     height: 32px;
     display: inline-block;
@@ -572,7 +572,6 @@ body > iframe{
 
 .iteminfo {
     padding-left: 50px;
-    margin-top: -3px;
     font-size: 14px;
     line-height: 24px;
     position: relative;
@@ -592,7 +591,7 @@ body > iframe{
 }
 
 .iteminfo .wxpaybtn {
-    background: #ffffff url("/static/img/wxpay.png") center center no-repeat!important;
+    background: #ffffff url("/ffxisf/static/img/wxpay.png") center center no-repeat!important;
     background-size: 90% auto!important;
     min-width: 80px;
 }
@@ -604,7 +603,7 @@ body > iframe{
 }
 
 .buybtn {
-    background-image: url("/static/img/nbt01.gif");
+    background-image: url("/ffxisf/static/img/nbt01.gif");
     width:90px;
     position: absolute;
     right:0; top:24px;
@@ -659,7 +658,6 @@ body > iframe{
     padding: 0 20px!important;
 }
 
-.svipSelect,
 .orderSelect {
 	background-color: #fff;
 	font-size: 14px;
@@ -712,8 +710,5 @@ body > iframe{
     background-color: #eee;
 }
 .tuiguanglist img {
-    margin: -5px 0;
-}
-nglist img {
     margin: -5px 0;
 }
