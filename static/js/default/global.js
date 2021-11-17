@@ -22,6 +22,7 @@ if (!window.jQuery) {
 }
 */
 
+
 function renderTemplate(template, list) {
 
 	var buffer = [];
@@ -157,59 +158,8 @@ function loadMoreMessages(forceToShow) {
 }
 
 $(function() {
-    //Game Player TOP
-    var topjson = null;
-    function showTop(type)
-    {
-        var conn = '';
-        for(key in topjson)
-        {
-            if (topjson[key].type == type)
-            {
-        		if (type == 0)
-            				conn += '<div class="top_item">'+topjson[key].value+' <span>'+topjson[key].charname+'</span> 击杀 <span>'+topjson[key].skill+'</span>'+'</div>';
-                else if (type == 1)
-                {
-                    conn += '<div class="top_item">GIL: <span>'+parseInt(topjson[key].value/1000000)+'M</span> [ 玩家: <span>'+topjson[key].charname+'</span> ] '+'</div>';
-                }
-                else if(type == 2)
-                    conn += '<div class="top_item"><span>'+topjson[key].skill+'</span> [ 玩家: <span>'+topjson[key].charname+'</span> 等级: <span>'+parseInt(topjson[key].value/10)+'</span> ] '+'</div>';
-                else if(type == 3)
-                    conn += '<div class="top_item">公会: <span>'+topjson[key].skill+'</span> [ 会长: <span>'+topjson[key].charname+'</span> 人数: <span>'+topjson[key].value+'</span> ] '+'</div>';
-                else if(type == 4)
-                    conn += '<div class="top_item">在线: <span>'+parseInt(topjson[key].value/86400)+'天</span> [ 玩家: <span>'+topjson[key].charname+'</span> ] '+'</div>';
-            }
-        }
-        $("#TopContent").html(conn);
-    }
-    
-    function loadTopConn(type)
-    {
-        $("#TopContent").html('<h3>加载中...</h3>');
-        if (topjson == null)
-        {
-            $.get('/gametop', function(res){
-            	if (res.length > 10) {
-            		topjson = $.parseJSON(res);
-                	showTop(type);
-            	}
-            });
-        }
-        else
-        {
-            showTop(type);
-        }
-    }
-  
 	//Button go to top
 	function setButtonToTop() {
-        $("#TopList").on('click', 'span', function(){
-          $("#TopList span").removeClass('topshow');
-          $(this).addClass('topshow');
-          loadTopConn($(this).index());
-        });
-        loadTopConn(0);
-    
 		//Force to refresh under pjax
 		$("#go-to-top").css('left', (Math.max(document.body.clientWidth, 960) - 960) / 2 + 690);
 		$("#go-to-top").unbind('click');
@@ -309,6 +259,7 @@ $(function() {
 	function() {
 		$('#progressBar').hide();
 		setButtonToTop();
+		refreshCap();
 	});
 	//$(document).pjax('a', 'body');
 	//改变导航栏的点击CSS
