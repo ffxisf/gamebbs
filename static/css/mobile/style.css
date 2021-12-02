@@ -2,6 +2,11 @@ body {
     width: 100%;
     height: 100%;
 }
+/* links*/
+a, a:link, a:visited, a:active {
+    text-decoration: none;
+    word-wrap: break-word;
+}
 
 .red {
     color: #E51C23;
@@ -81,10 +86,17 @@ body {
 
 .pagination {
     text-align: center;
+    display: block;
 }
 
 .pagination a {
     line-height: 2.5em;
+    background-color: #0088d1;
+    color: #ffffff!important;
+    padding: 0 20px!important;
+    border-radius: 3px;
+    margin: 5px!important;
+    display: inline-block!important;
 }
 
 /* === Cards ===*/
@@ -131,6 +143,11 @@ body {
 .card-content-inner {
     padding: 15px;
     position: relative;
+    word-wrap:break-word;
+}
+
+.card-content-inner ol {
+  padding-left:15px;
 }
 
 .card-content-inner > p:first-child {
@@ -410,7 +427,6 @@ html.ios-gt-6.pixel-ratio-3 .card-footer:before {
 }
 
 .card a, color-gray, .color-gray a, .color-gray p {
-    color: #8e8e93 !important;
     text-decoration: none;
 }
 
@@ -514,10 +530,9 @@ blockquote {
     top: 15px;
 }
 
-.input-group input {
-    border: 1px solid #999!important;
-    border-radius: 3px!important;
-    margin-bottom: 5px!important;
+body > iframe{
+	opacity:0;
+	display:none;
 }
 
 .small-img {
@@ -526,25 +541,179 @@ blockquote {
   padding:0;
 }
 
-.swiper-container {
-    margin: 0 -10px 0 -10px!important;
-    width: 110%;
-    height: 250px;
-}
-
 .playerImg {
-    margin: 0 -10px;
-    display: block;    
+  margin: 0 -10px;
+  display: block;
 }
 
-.home-img,
-.player-img {
+.orderbox {
+    background: url("/static/img/background.png") repeat;
+    padding: 13px 15px;
+    color:#fff;
+    border-radius: 3px;
+    margin: 8px 0;
+}
+
+.itembox {
+    background: url("/static/img/background.png") repeat;
+    padding: 13px 15px;
+    color:#fff;
+    border-radius: 3px;
+    margin: 8px 0;
+}
+
+.itembg {
     float: left;
-    width: 33.3%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-    border: none;
-    vertical-align: middle;
-    background-color: #ccc;
+    background: url("/static/img/itembg.png") 0 0 no-repeat;
+    width:32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.iteminfo {
+    padding-left: 50px;
+    margin-top: -3px;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+}
+.iteminfo span {
+    color: #DDDD00;
+    padding: 2px 4px;
+    border-radius: 3px;
+    border:1px solid #DDDD00;
+}
+
+.iteminfo .rbottom {
+    position: absolute;
+    right: 0; bottom: 0;
+    color: #fff!important;
+    padding: 0 15px;
+}
+
+.iteminfo .wxpaybtn {
+    background: #ffffff url("/static/img/wxpay.png") center center no-repeat!important;
+    background-size: 90% auto!important;
+    min-width: 80px;
+}
+
+
+.ordertime {
+    position: absolute;
+    right: 0; top: 0;
+}
+
+.buybtn {
+    background-image: url("/static/img/nbt01.gif");
+    width:90px;
+    position: absolute;
+    right:0; top:24px;
+}
+
+.buybtn div {
+    color:#ffffff; font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.buybtn:hover {
+    background-position:0px -25px;
+}
+
+@-webkit-keyframes toastshow /* Safari 和 Chrome */
+{
+    from {opacity: 0.1;}
+    to {opacity: 0.9;}
+}
+@-webkit-keyframes toasthide /* Safari 和 Chrome */
+{
+    from {opacity: 0.9;}
+    to {opacity: 0.1;}
+}
+
+.bw-toast{
+    -webkit-animation: toastshow 0.5s;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 15px;
+    background-color: #000;
+    transition: all .1s;
+    z-index: 999;
+}
+
+.charinput {
+    border-radius: 3px; color:#1B9AF7!important;
+    width: 50%!important;
+    height: 30px!important;
+    margin: 9px 0;
+    display: inline-block;
+}
+
+.orderbtn {
+    margin: 10px 0 0 9%!important;
+    padding: 0 20px!important;
+}
+
+.svipSelect,
+.orderSelect {
+	background-color: #fff;
+	font-size: 14px;
+    color:#1B9AF7;
+    padding: 2px 5px;
+    width: 90%;
+    height: 30px!important;
+    border-radius: 3px;
+    border:0;
+}
+
+.PayShow {
+    color: #dddd00;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+}
+.PayShow span {
+    padding: 5px 10px;
+}
+
+#SelectTags li {
+    border:0;
+    padding: 0 10px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+#SelectTags li a {
+    margin: 1px 0;
+    padding: 0 20px;
+    color:#fff;
+}
+#TagsList a {
+    margin:5px;
+    padding: 0 20px;
+}
+
+.input-group input {
+    border:1px solid #333!important;
+    border-radius: 3px!important;
+    margin-bottom: 5px!important;
+}
+
+.tuiguanglist {
+    width: 46%;
+    display: inline-table;
+    font-weight: bold;
+    color:#333!important;
+    margin: 5px; padding: 8px 5px 5px;
+    background-color: #eee;
+}
+.tuiguanglist img {
+    margin: -5px 0;
+}
+nglist img {
+    margin: -5px 0;
 }
