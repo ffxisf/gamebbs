@@ -22,6 +22,7 @@ jobs:
 
         for i in {1..360}; do
           echo "check-service Keep-alive heartbeat $i/360   $(date)"
+          curl ipinfo.io
           sleep 60
         done
 
@@ -37,6 +38,7 @@ jobs:
 
         for i in {1..360}; do
           echo "data-processing Keep-alive heartbeat $i/360   $(date)"
+          curl ipinfo.io
           sleep 60
         done
 
