@@ -14,13 +14,31 @@ jobs:
   check-service:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "执行第一步检测..."
+    - name: Keep alive & run
+      timeout-minutes: 359 
+      run: |
+        # run script
+        # nohup python very_long_task.py > long.log 2>&1 &
+
+        for i in {1..360}; do
+          echo "check-service Keep-alive heartbeat $i/360   $(date)"
+          sleep 60
+        done
 
   data-processing:
-    needs: check-service # 只有 check-service 成功，这个才运行
+    needs: check-service
     runs-on: ubuntu-latest
     steps:
-      - run: echo "执行第二步数据处理..."
+    - name: Keep alive & run
+      timeout-minutes: 359
+      run: |
+        # run script
+        # nohup python very_long_task.py > long.log 2>&1 &
+
+        for i in {1..360}; do
+          echo "data-processing Keep-alive heartbeat $i/360   $(date)"
+          sleep 60
+        done
 
   notify:
     needs: [check-service, data-processing] # 依赖多个 Job
