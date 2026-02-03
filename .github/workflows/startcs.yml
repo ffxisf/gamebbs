@@ -14,11 +14,18 @@ jobs:
   check-service:
     runs-on: ubuntu-latest
     steps:
-    - name: Keep alive & run
-      timeout-minutes: 359 
+    - name: setup cloudflared
+      uses: AnimMouse/setup-cloudflared@v2
+      
+    - name: keep alive & mcp
+      timeout-minutes: 359
+      env:
+          MY_TOKEN: ${{ secrets.CF_TOKEN }}
       run: |
         # run script
-        # nohup python very_long_task.py > long.log 2>&1 &
+        mkdir ~/firefox
+        docker run -d --name=firefox -p 5800:5800 -e ENABLE_CJK_FONT=1 -v ~/firefox:/config:rw jlesage/firefox
+        cloudflared tunnel run --token $MY_TOKEN
 
         for i in {1..360}; do
           echo "check-service Keep-alive heartbeat $i/360   $(date)"
