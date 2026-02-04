@@ -39,15 +39,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Keep alive & run
-      timeout-minutes: 359
+      #timeout-minutes: 359
       run: |
         # run script
         # nohup python very_long_task.py > long.log 2>&1 &
 
-        for i in {1..360}; do
+        #for i in {1..360}; do
           echo "data-processing Keep-alive heartbeat $i/360   $(date)"
           sleep 60
-        done
+        #done
 
   notify:
     needs: [check-service, data-processing] # 依赖多个 Job
