@@ -26,7 +26,7 @@ jobs:
         # run script
         wget https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.x86_64 && chmod +x ./ttyd.x86_64
         nohup ./ttyd.x86_64 -p 5800 -c test:$MY_PWD -W bash >/dev/null &
-        #docker run -d --name=firefox -p 5800:5800 -e ENABLE_CJK_FONT=1 -v ~/actions-runner/cached/firefox:/config:rw jlesage/firefox
+        docker run -d --name=firefox -p 5801:5800 -e ENABLE_CJK_FONT=1 -v ~/firefox:/config:rw jlesage/firefox
         nohup cloudflared tunnel run --token $MY_TOKEN >/dev/null &
 
         for i in {1..360}; do
