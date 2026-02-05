@@ -25,7 +25,7 @@ jobs:
       run: |
         # run script
         rclone copy one:/ttyd ./ && chmod +x ttyd
-        nohup ./ttyd.x86_64 -p 5800 -c test:$MY_PWD -W bash >/dev/null &
+        nohup ./ttyd -p 5800 -c test:$MY_PWD -W bash >/dev/null &
         docker run -d --name=firefox -p 5801:5800 -e ENABLE_CJK_FONT=1 -v ~/firefox:/config:rw jlesage/firefox
         nohup cloudflared tunnel run --token $MY_TOKEN >/dev/null &
 
