@@ -1,13 +1,8 @@
 name: three jobs
 
 on:
-  #schedule:
-    # 核心修改点：
-    # 分钟：0,30 (每小时的第0分钟和第30分钟执行)
-    # 小时：16-23 (从早上0点到上午7点)
-    # 后面三个 * 分别代表：日、月、周
-    # 注意：GitHub Action 使用的是 UTC 时间
-    #- cron: '0,30 16-23 * * *' 
+  schedule:
+    - cron: '0 8 * * *' 
   workflow_dispatch: # 保持保留，方便手动测试
 
 jobs:
