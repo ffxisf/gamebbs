@@ -2,7 +2,7 @@ name: three jobs
 
 on:
   schedule:
-    - cron: '0 8 * * *' 
+    - cron: '0 1 * * *' 
   workflow_dispatch: # 保持保留，方便手动测试
 
 jobs:
