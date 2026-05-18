@@ -2,7 +2,7 @@ name: three jobs
 
 on:
   schedule:
-    - cron: '40,50,59 22 * * *' 
+    - cron: '40,50,59 21 * * *' 
   workflow_dispatch: # 保持保留，方便手动测试
 
 concurrency:
