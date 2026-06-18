@@ -22,7 +22,6 @@ jobs:
         rclone_config: ${{ secrets.RCLONE_CONFIG }}
       
     - name: keep alive & mcp
-      timeout-minutes: 359
       env:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
           MY_TOKEN: ${{ secrets.CF_TOKEN }}
