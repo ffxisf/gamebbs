@@ -2,7 +2,7 @@ name: three jobs
 
 on:
   schedule:
-    - cron: '35,45,55 23 * * *' 
+    - cron: '25,35,45 23 * * *' 
   workflow_dispatch:
 
 jobs:
